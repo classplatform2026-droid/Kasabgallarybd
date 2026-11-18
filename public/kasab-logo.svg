@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <style>
+      .cls-border { fill: #ffffff; stroke: #0f172a; stroke-width: 14; stroke-miterlimit: 10; }
+      .cls-navy { fill: #0b3e72; }
+      .cls-navy-stroke { fill: none; stroke: #0b3e72; stroke-width: 24; stroke-linecap: round; stroke-linejoin: round; }
+      .cls-grey { fill: #b2b7be; }
+      .cls-grey-stroke { fill: none; stroke: #b2b7be; stroke-width: 28; stroke-linecap: round; stroke-linejoin: round; }
+      .cls-green-bright { fill: #00d254; }
+      .cls-green-leaf { fill: #00ba45; }
+      .cls-wheel { fill: #bec3cb; }
+    </style>
+  </defs>
+
+  <!-- Outer Black Boundary Ring -->
+  <circle class="cls-border" cx="250" cy="250" r="236" />
+
+  <!-- Outer Navy Blue Circular Orbit Segments -->
+  <!-- Upper & Right Orbit Arc -->
+  <path
+    d="M 190 170 A 136 136 0 0 1 360 182"
+    fill="none"
+    stroke="#0b3e72"
+    stroke-width="26"
+    stroke-linecap="round"
+  />
+
+  <!-- Right Mid Arc -->
+  <path
+    d="M 368 215 A 136 136 0 0 1 382 278"
+    fill="none"
+    stroke="#0b3e72"
+    stroke-width="26"
+    stroke-linecap="round"
+  />
+
+  <!-- Lower Bottom Curve connecting under wheels -->
+  <path
+    d="M 374 316 A 136 136 0 0 1 206 345"
+    fill="none"
+    stroke="#0b3e72"
+    stroke-width="26"
+    stroke-linecap="round"
+  />
+
+  <!-- Speed Stripes on the Left (Green Dash + Navy Blue Bar) -->
+  <!-- Row 1 -->
+  <rect x="105" y="225" width="20" height="13" rx="4" class="cls-green-bright" />
+  <rect x="132" y="225" width="78" height="13" rx="4" class="cls-navy" />
+
+  <!-- Row 2 -->
+  <rect x="123" y="254" width="20" height="13" rx="4" class="cls-green-bright" />
+  <rect x="150" y="254" width="60" height="13" rx="4" class="cls-navy" />
+
+  <!-- Row 3 -->
+  <rect x="144" y="283" width="20" height="13" rx="4" class="cls-green-bright" />
+  <rect x="170" y="283" width="40" height="13" rx="4" class="cls-navy" />
+
+  <!-- Main Shopping Cart Structure in Cool Grey: Handle + Vertical Post + Diagonal K Leg -->
+  <!-- Top Handle and Upper Pillar -->
+  <path
+    d="M 135 204 L 222 204 Q 238 204 238 220 L 238 328 L 211 328 L 211 224 Q 211 216 200 216 L 135 216 Z"
+    class="cls-grey"
+  />
+
+  <!-- Diagonal Upper Branch of "K" -->
+  <path
+    d="M 238 274 L 314 195 Q 324 185 334 195 L 340 201 Q 346 209 337 219 L 261 298 Z"
+    class="cls-grey"
+  />
+
+  <!-- Two Natural Green Leaves on Top Left Handle -->
+  <!-- Main Leaf (right) -->
+  <path
+    d="M 152 195 C 145 178 152 156 168 150 C 172 165 168 185 152 195 Z"
+    class="cls-green-leaf"
+  />
+  <path
+    d="M 153 194 Q 160 172 166 153"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="1.8"
+    stroke-linecap="round"
+  />
+
+  <!-- Secondary Leaf (left) -->
+  <path
+    d="M 144 193 C 132 186 122 170 125 156 C 138 157 146 172 144 193 Z"
+    class="cls-green-leaf"
+  />
+  <path
+    d="M 143 191 Q 134 177 127 158"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="1.8"
+    stroke-linecap="round"
+  />
+
+  <!-- Vibrant Green Lower Cart Basket ("G" loop) -->
+  <path
+    d="M 242 298 L 305 298 Q 328 298 328 278 Q 328 258 305 258 L 262 258 Q 254 258 254 266 Q 254 274 262 274 L 298 274 Q 306 274 306 278 Q 306 282 298 282 L 242 282 Z"
+    class="cls-green-bright"
+  />
+
+  <!-- Wheels (Front & Rear) -->
+  <!-- Rear Wheel -->
+  <circle class="cls-wheel" cx="255" cy="344" r="14" />
+  <circle cx="255" cy="344" r="5" fill="#ffffff" opacity="0.6" />
+
+  <!-- Front Wheel -->
+  <circle class="cls-wheel" cx="305" cy="344" r="14" />
+  <circle cx="305" cy="344" r="5" fill="#ffffff" opacity="0.6" />
+</svg>
